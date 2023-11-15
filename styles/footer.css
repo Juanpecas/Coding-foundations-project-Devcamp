@@ -1,0 +1,33 @@
+.footer{
+    height: 300px ;
+    margin-top: -1px;
+    background: rgb(27, 26, 26);
+}
+
+.footer > .footer-container > .footer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center; 
+
+}
+
+.footer > .footer-container > .footer-wrapper{
+    background-color: #434349;
+    border: 2px solid gray;  
+    border-radius: 4px;
+}
+
+.footer > .footer-container > .footer-wrapper > .nav-link{
+    border-right: 2px solid gray;
+    border-radius: 4px;
+
+}
+
+h2{
+    color: white;
+    font-size: 1em;
+}
+h2 a {
+    text-transform: uppercase !important;
+}
+

@@ -1,0 +1,113 @@
+.navigation-wrapper{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: gray;
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: 50% 20% 30%;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img{
+    width: 220px;
+    height: 100%;
+}
+
+
+h1{
+    font-size: 1.2rem;
+    width: 175px;
+    color: #d2b55b;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navigation-wrapper > .left-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 690px;
+
+}
+
+.navigation-wrapper > .left-column > .link-wrapper {
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .left-column > .link-wrapper > .nav-link{
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.nav-link a:hover{
+    color: #800080;
+    letter-spacing: 2px;
+}
+
+/* center column styles */
+
+.center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.center-column > .link-wrapper > .nav-link > .chevron-icon a{
+    color: #a9a9a9;
+    font-size: 1.3rem;
+}
+
+
+
+/* right column styles */
+
+.right-column > .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.right-column > .link-wrapper > .nav-link-btn > .chevron-icon > .btn i{
+    color: #00ff00;
+
+}
+
+.right-column > .link-wrapper > .nav-link-icon {
+    color: #727279;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right-column > .link-wrapper > .nav-link-icon > .search-icon i{
+    font-size: 2.2rem;
+}
+
+
+
+
+
+
+
